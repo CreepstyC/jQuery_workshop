@@ -1,0 +1,67 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #343440;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center  ;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 180px -20px 180px;
+    padding-top: 5px;
+    background-color: #202026;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 1px solid #FCF6EA;
+}
+
+input {
+    background-color: #202026;
+    color: #FCF6EA;
+    width: 80vmin;
+    height: 30px;
+    padding: 6px 10px;
+    margin: 5px 5px 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #FCF6EA;
+}
+
+#fecha-nacimiento {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #202026;
+    color: #FCF6EA;
+    border: 1px solid #FCF6EA;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FCF6EA;
+    color: #202026;
+    transition-duration: 0.5s;
+}
+
+table {
+    width: 100%;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    border-collapse: collapse;
+}
